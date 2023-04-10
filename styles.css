@@ -1,0 +1,74 @@
+.container{
+    width:70%;
+    margin: auto;
+    height:100vh;
+    padding:0px 0;
+    background-color:  hsl(273, 75%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.content{
+     width: 90%;
+     height: 90%;
+     background-color: white;
+     margin: 200px 150px 200px 150px;
+     border-radius: 20px;
+     display: flex;
+     
+     
+}
+.picture, .FAQ{
+    
+    height:inherit;
+    flex-direction: column;
+    margin-top:20px;
+
+
+}
+.FAQ{
+    margin-top: 90px;
+    width:55%;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    margin-left: 20px;;
+    
+}
+
+.picture{
+   
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture svg{
+    margin-left:-30px;
+}
+.FAQ h2,p{
+    font:2em;
+    text-align:left;
+    /*margin-left:20px;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+
+}
+.divider {
+    display:flex;
+    border-bottom:2px solid hsl(240, 5%, 91%);
+    margin-left:10px;
+    flex-direction: row;
+}
+.divider svg{
+    margin: 20px 80px;
+    justify-content: flex-end;
+    
+    
+}
+.icon{
+    display:flex;
+    margin-left: 100px;
+}
+    
