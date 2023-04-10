@@ -1,2 +1,0 @@
-# faq-design
-FAQ challenge
